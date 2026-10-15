@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    padding-left: 50px;
+}
+
+
+html {
+    font-size: 1.2em;
+    font-family: "Huninn", sans-serif;
+}
+
+
+
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.about {
+    background-color: lavender;
+    padding: 20px;
+    text-align: center;
+}
+.articles {
+    background-color: bisque;
+}
+
+
+
+
+
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.3rem;
+    text-align: justify;
+}
+h2 {
+    font-size: 2rem;
+    color: darkblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+img {
+    display: block;
+    margin: 50px auto;
+}
+
+
+* a:visited {
+    color:aqua;
+}
+a:focus {
+    color:green;
+    outline: 2px;
+}
+a:hover {
+    color:red;
+    text-decoration:color( red green blue)
+    
+
+}
+a:active {
+    color:plum;
+}
+
+a:link {
+    color:yellow;
+} *
+
+header a {
+    color: darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header a:hover,
+header a:focus,
+header a:active {
+    text-decoration: underline;
+}
+
+.articles li:nth-child(even) {
+    background-color: rgba(127, 255, 212, 0.512);
+}
+
+h2::after {
+    content: "new";
+    font-size: 10px;
+    color: purple;
+    margin-left: 10px;
+}
+
+
+h2::before {
+    content: "\F78F";
+    font-family: "bootstrap-icons";
+    margin-right: 10px;
+    color:aqua;
+}
+
+.my a {
+    color:red;
+}
+figure img{
+    border: 3px solid green;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px black;
+    display: block;
+}
+
+form{
+    width: 270px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: aqua;
+    margin: 20px auto;
+}
+input{
+    border: 1px solid darkblue;
+    background-color: lightblue;
+    padding: 5px;
+    color: darkblue;
+    border-radius: 4px;
+}
+input[type=sumbit] {
+    background-color: darkblue;
+    color: white;
+}
+
+input[type=sumbit] {
+background-color: blue;
+}
+
+input[type=checkbox] {
+accent-color: red;
+}
+textarea,
+select{
+    border: 1px solid darkblue;
+    background-color: lightblue;
+    padding: 5px;
+    color: darkblue;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+p {
+    letter-spacing: 2px
+}
